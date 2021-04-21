@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Basketball Simulator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section>
+        <div class="jumbotron">
+            <h1>Hawks vs. Road Hogs!</h1>
+            <h3>Basketball Simulator</h3>
+            <button class="btn btn-success" onclick="singleGameStats()">Generate Game Stats</button>
+        </div>
+    </section>
+    <section>
+        <div class="col-md-3">
+            <h3>Game Results</h3>
+            <div id="hawkWin"></div>
+            <div id="hogWin"></div>
+            <div id="finalScore"></div>
+            <div id="compare"></div>
+            <div id="compare2"></div>
+            <div id="compare2"></div>
+            <div id="compare3"></div>
+        </div>
+        <div class="col-md-3">
+            <h3>Team Stats</h3>
+            <h4>Hawks</h4>
+            <div id="hawks"></div>
+            <h4>Road Hogs</h4>
+            <div id="roadHogs"></div>
+        </div>
+        <div class="col-md-3">
+            <h3>Individual Stats</h3>
+            <div id="jack"></div>
+            <div id="simon"></div>
+            <div id="tyler"></div>
+            <div id="samuel"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
